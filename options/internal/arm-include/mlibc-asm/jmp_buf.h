@@ -1,0 +1,5 @@
+#pragma once
+
+#define JMP_BUF_CORE_REGS_SIZE ( 10 * 4 )
+#define JMP_BUF_FP_REGS_SIZE ( 8 * 8 )
+#define JMP_BUF_SAVESIGS_OFFSET ( JMP_BUF_CORE_REGS_SIZE + JMP_BUF_FP_REGS_SIZE )
